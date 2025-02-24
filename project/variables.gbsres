@@ -1,0 +1,130 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "Seen Cat",
+      "symbol": ""
+    },
+    {
+      "id": "1",
+      "name": "Seen duck",
+      "symbol": ""
+    },
+    {
+      "id": "2",
+      "name": "Used Radio",
+      "symbol": ""
+    },
+    {
+      "id": "3",
+      "name": "Spoke To Space Dog",
+      "symbol": ""
+    },
+    {
+      "id": "4",
+      "name": "Quest1",
+      "symbol": ""
+    },
+    {
+      "id": "5",
+      "name": "Quest2",
+      "symbol": ""
+    },
+    {
+      "id": "6",
+      "name": "Quest3",
+      "symbol": ""
+    },
+    {
+      "id": "7",
+      "name": "Quest4",
+      "symbol": ""
+    },
+    {
+      "id": "8",
+      "name": "Quest5",
+      "symbol": ""
+    },
+    {
+      "id": "9",
+      "name": "Quest6",
+      "symbol": ""
+    },
+    {
+      "id": "10",
+      "name": "NewGame",
+      "symbol": ""
+    },
+    {
+      "id": "11",
+      "name": "SaveGame",
+      "symbol": ""
+    },
+    {
+      "id": "12",
+      "name": "PushedIceBlock",
+      "symbol": ""
+    },
+    {
+      "id": "13",
+      "name": "Achivement1",
+      "symbol": "var_achivement1"
+    },
+    {
+      "id": "868097a1-745e-44d3-b4e3-e72f63f6a5f7__L0",
+      "name": "ReturnMainMenu",
+      "symbol": "var_returnmainmenu_1"
+    },
+    {
+      "id": "b3bdfcc2-2ded-44da-8a1f-f0c02b6ec8ed__L0",
+      "name": "ReturnMainMenu",
+      "symbol": "var_returnmainmenu_0"
+    },
+    {
+      "id": "14",
+      "name": "Achivement2",
+      "symbol": "var_achivement2_0"
+    },
+    {
+      "id": "15",
+      "name": "Achivement3",
+      "symbol": "var_achivement3"
+    },
+    {
+      "id": "537bde57-fd48-4980-a8bc-f7422a4955c3__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "56bc4fd6-c16d-4b16-9fe5-dc0931e5b863__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
+    },
+    {
+      "id": "16",
+      "name": "MovementMenu",
+      "symbol": "var_movementmenu"
+    },
+    {
+      "id": "4387ad4a-dfcc-421b-a716-b8d8252561e3__L0",
+      "name": "ReturnMainMenu",
+      "symbol": "var_returnmainmenu"
+    },
+    {
+      "id": "ec39d300-b1d9-4961-b423-be5e37d97cb8__L0",
+      "name": "ReturnMainMenu",
+      "symbol": "var_returnmainmenu_2"
+    },
+    {
+      "id": "863cf59d-3c7b-40ac-8d7b-8e299827777c__L0",
+      "name": "ReturnMainMenu",
+      "symbol": "var_returnmainmenu_3"
+    },
+    {
+      "id": "8f7651f5-fd72-4515-9a40-fd8ad9d06853__L0",
+      "name": "ReturnMainMenu",
+      "symbol": "var_returnmainmenu_4"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c1142f2b-2fc5-4dc7-b4d2-25243e31b5e2",
+  "name": "Achivements Menu",
+  "symbol": "bg_pausemenu_c_pia",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Achivements Menu.png",
+  "tileColors": "",
+  "autoColor": false
+}

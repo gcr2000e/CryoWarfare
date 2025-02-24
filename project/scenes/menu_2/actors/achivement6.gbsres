@@ -1,0 +1,39 @@
+{
+  "_resourceType": "actor",
+  "id": "0f97b2d4-a5c0-4831-8e07-0c5f105608f2",
+  "name": "Achivement1",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "5a5fbcc7-8a0e-480f-bc1c-d9b74ea0c830",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_27",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "number",
+          "value": 3
+        }
+      },
+      "id": "2fda8bc8-491c-4d31-a4fd-8bd3aca910f2"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 15,
+  "y": 11,
+  "_index": 8
+}

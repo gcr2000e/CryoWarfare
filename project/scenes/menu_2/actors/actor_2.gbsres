@@ -1,0 +1,56 @@
+{
+  "_resourceType": "actor",
+  "id": "56bc4fd6-c16d-4b16-9fe5-dc0931e5b863",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "edec3ddc-6d26-434a-83d9-798fcb5a20c5",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "_index": 10,
+  "symbol": "actor_31",
+  "x": 9,
+  "y": 8,
+  "script": [
+    {
+      "id": "13b8a071-d6e4-4d4d-af80-2b77fe877477",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Welcome to\nGBStudio!2"
+        ]
+      }
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "14"
+      },
+      "id": "908830cf-c9cc-4fe7-b57c-07f6042144f7"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "fa77c06a-ec09-4f7f-8b94-a9f0c45a6245"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}
