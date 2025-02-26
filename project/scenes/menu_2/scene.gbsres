@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "50e647fd-ff7c-44d3-9335-09e5193f0569",
-  "_index": 7,
+  "_index": 6,
   "name": "Menu",
   "backgroundId": "c1142f2b-2fc5-4dc7-b4d2-25243e31b5e2",
   "tilesetId": "",
@@ -13,8 +13,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_9",
-  "x": 576,
-  "y": 664,
+  "x": 112,
+  "y": 872,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",

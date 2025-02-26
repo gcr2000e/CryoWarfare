@@ -1,0 +1,83 @@
+{
+  "_resourceType": "scene",
+  "id": "f82cf6f1-af09-453c-aff0-dbd45534c91b",
+  "_index": 10,
+  "name": "House2",
+  "backgroundId": "b340b9a2-2865-4e05-91c0-148846a693c8",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "003d+0f12+002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f8+002+0f8+009+0f!002+0f!0010+0f4+008+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_11",
+  "x": 586.3541666666666,
+  "y": 30,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "872f61cf-bd62-4e58-92ee-a751e7335fe9"
+      },
+      "id": "7a0b47b3-3b57-4772-a13d-abd471d11e6a"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "__section": "source",
+              "spriteSheetId": "81b5aa0c-a7da-4c82-b7ac-2607cb4e2403",
+              "spriteStateId": "",
+              "actorId": "$self$",
+              "x": 0,
+              "y": 0,
+              "directionType": "actor",
+              "otherActorId": "$self$",
+              "direction": "right",
+              "angle": 0,
+              "angleVariable": "L0",
+              "targetActorId": "$self$",
+              "initialOffset": 3,
+              "speed": 2,
+              "animSpeed": 15,
+              "lifeTime": 0.7,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "1",
+              "collisionMask": [
+                "1"
+              ]
+            },
+            "id": "26613efe-ae03-48cb-ba3e-a525b7abfc04"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30
+            },
+            "id": "6e730d51-2b75-4ed4-a4b2-e1f0f014efdd"
+          }
+        ]
+      },
+      "id": "c6d557db-0c8e-4183-ac70-39f4ced12eca"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "71ff6b17-75f9-4136-85ea-b048c2f2b722"
+}

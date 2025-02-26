@@ -1,25 +1,199 @@
 {
   "_resourceType": "actor",
-  "id": "d12d5092-2716-441d-bab0-0e15fe715f5e",
-  "_index": 2,
-  "symbol": "actor_2",
-  "prefabId": "",
+  "id": "825293ab-51dc-4f20-8b7d-77fe1158bf42",
   "name": "",
-  "x": 21,
-  "y": 18,
   "frame": 0,
-  "animate": true,
-  "spriteSheetId": "ede130e6-013a-42d1-a786-1aed3fd3cf32",
-  "paletteId": "",
+  "animate": false,
+  "spriteSheetId": "edec3ddc-6d26-434a-83d9-798fcb5a20c5",
+  "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 63,
+  "animSpeed": 255,
+  "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "script": [],
-  "startScript": [],
+  "_index": 2,
+  "symbol": "actor_2",
+  "x": 26,
+  "y": 30,
+  "script": [
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "13"
+      },
+      "id": "1c5a9994-b245-410a-a4dd-9ad9e15856fa"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Nice you find \n$13$ / 3 shells"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "17de0a11-0271-4739-b0d2-41e11efaf0c1"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": false
+      },
+      "id": "1349cd2f-b568-44e2-8fbd-8ac8af89ee21"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": false
+      },
+      "id": "f826afba-0107-4afc-9239-c64f5f7e9890"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "and",
+          "valueA": {
+            "type": "variable",
+            "value": "13"
+          },
+          "valueB": {
+            "type": "and",
+            "valueA": {
+              "type": "variable",
+              "value": "14"
+            },
+            "valueB": {
+              "type": "eq",
+              "valueA": {
+                "type": "variable",
+                "value": "15"
+              },
+              "valueB": {
+                "type": "number",
+                "value": 3
+              }
+            }
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Nice you find \neverithing you \ncomplete the game"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 5,
+              "maxHeight": 8,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "f64cb6d9-4b0f-486c-9c28-c6d447a87c7f"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "850d89b7-4854-44b8-9e7a-9c80d5e7453b"
+          }
+        ],
+        "false": []
+      },
+      "id": "428aac18-2339-45af-93fd-fafd049c55d9"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "3fc86b88-76e7-4689-acd2-531f8d14224e"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "4a79826e-8c64-4694-94c9-10467a3818c7"
+          }
+        ],
+        "false": []
+      },
+      "id": "5bf3e92c-71f6-43b3-985f-220ab47a1d1c"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

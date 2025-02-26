@@ -1,39 +1,154 @@
 {
   "_resourceType": "actor",
-  "id": "e63a0fb5-2d9e-4a85-9ba0-e711e6de6cdc",
-  "_index": 1,
-  "symbol": "actor_1",
-  "prefabId": "",
+  "id": "031f8785-c4a6-4c4b-b7f0-e7b33502eca9",
   "name": "",
-  "x": 27,
-  "y": 23,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "edec3ddc-6d26-434a-83d9-798fcb5a20c5",
-  "paletteId": "",
+  "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 255,
+  "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
+  "_index": 1,
+  "symbol": "actor_51",
+  "x": 29,
+  "y": 1,
   "script": [
-    {
-      "id": "149845e1-e0b4-4a2e-97e3-4a59c8bc2634",
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "Welcome to\nGBStudio!1"
-        ]
-      }
-    },
     {
       "command": "EVENT_INC_VALUE",
       "args": {
-        "variable": "13"
+        "variable": "15"
       },
-      "id": "35d6c22d-409a-43c1-bd38-78471e153e15"
+      "id": "00822065-79bb-4f9c-a608-8eb43c09908e"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Nice you find \n$15$ / 3 Pizzas"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "ea76f5d7-9579-4cc3-a520-3c520e472118"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "bab61c0f-1b0f-4462-a9ae-ee8c95ba947a"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "a582dd56-957a-4593-b0a3-ef7a75cba57b"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "and",
+          "valueA": {
+            "type": "variable",
+            "value": "13"
+          },
+          "valueB": {
+            "type": "and",
+            "valueA": {
+              "type": "variable",
+              "value": "14"
+            },
+            "valueB": {
+              "type": "eq",
+              "valueA": {
+                "type": "variable",
+                "value": "15"
+              },
+              "valueB": {
+                "type": "number",
+                "value": 3
+              }
+            }
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Nice you find \neverithing you \ncomplete the game"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 5,
+              "maxHeight": 8,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "7f624ddb-8b7f-4e52-94a8-1658d7517973"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "1021d3bc-da78-4582-a3d8-3c515c27e0e1"
+          }
+        ],
+        "false": []
+      },
+      "id": "37f8990c-9876-49d5-a37c-75ef67422653"
     }
   ],
   "startScript": [
@@ -43,10 +158,40 @@
         "actorId": "$self$",
         "frame": {
           "type": "number",
-          "value": 0
+          "value": 1
         }
       },
-      "id": "f97df786-ec21-46fe-94dd-5f26fba7bc67"
+      "id": "168a542b-3da2-4a34-aaa0-d583d93106ba"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "0d43e625-e661-4f23-bf10-32bffce47d39"
+          }
+        ],
+        "false": []
+      },
+      "id": "fc001e1f-51f7-4a6b-baf6-9171b60c78ca"
     }
   ],
   "updateScript": [],

@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "4912bee2-387a-472f-ae4f-6679b6149517",
-  "_index": 5,
+  "_index": 4,
   "type": "TOPDOWN",
   "name": "Title Screen",
   "symbol": "scene_title_screen",
@@ -76,11 +76,11 @@
                     "sceneId": "94c18861-b352-4f49-a64d-52f2e3415077",
                     "x": {
                       "type": "number",
-                      "value": 27
+                      "value": 3
                     },
                     "y": {
                       "type": "number",
-                      "value": 26
+                      "value": 31
                     },
                     "direction": "left",
                     "fadeSpeed": "4"

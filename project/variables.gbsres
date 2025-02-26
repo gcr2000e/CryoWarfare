@@ -72,16 +72,6 @@
       "symbol": "var_achivement1"
     },
     {
-      "id": "868097a1-745e-44d3-b4e3-e72f63f6a5f7__L0",
-      "name": "ReturnMainMenu",
-      "symbol": "var_returnmainmenu_1"
-    },
-    {
-      "id": "b3bdfcc2-2ded-44da-8a1f-f0c02b6ec8ed__L0",
-      "name": "ReturnMainMenu",
-      "symbol": "var_returnmainmenu_0"
-    },
-    {
       "id": "14",
       "name": "Achivement2",
       "symbol": "var_achivement2_0"
@@ -92,6 +82,21 @@
       "symbol": "var_achivement3"
     },
     {
+      "id": "16",
+      "name": "MovementMenu",
+      "symbol": "var_movementmenu"
+    },
+    {
+      "id": "868097a1-745e-44d3-b4e3-e72f63f6a5f7__L0",
+      "name": "ReturnMainMenu",
+      "symbol": "var_returnmainmenu_1"
+    },
+    {
+      "id": "b3bdfcc2-2ded-44da-8a1f-f0c02b6ec8ed__L0",
+      "name": "ReturnMainMenu",
+      "symbol": "var_returnmainmenu_0"
+    },
+    {
       "id": "537bde57-fd48-4980-a8bc-f7422a4955c3__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
@@ -100,11 +105,6 @@
       "id": "56bc4fd6-c16d-4b16-9fe5-dc0931e5b863__L0",
       "name": "Local 0",
       "symbol": "var_local_1"
-    },
-    {
-      "id": "16",
-      "name": "MovementMenu",
-      "symbol": "var_movementmenu"
     },
     {
       "id": "4387ad4a-dfcc-421b-a716-b8d8252561e3__L0",
@@ -125,6 +125,36 @@
       "id": "8f7651f5-fd72-4515-9a40-fd8ad9d06853__L0",
       "name": "ReturnMainMenu",
       "symbol": "var_returnmainmenu_4"
+    },
+    {
+      "id": "18e75fa1-5edf-4d16-883a-b2706b16d0f3__L0",
+      "name": "Local 0",
+      "symbol": "var_local_2"
+    },
+    {
+      "id": "c34f8b86-92f9-4fc8-9666-0f2ebc5fc470__L0",
+      "name": "Local 0",
+      "symbol": "var_local_3"
+    },
+    {
+      "id": "134283f5-bfbf-4a99-8099-8b3dfb1e150d__L0",
+      "name": "Local 0",
+      "symbol": "var_local_4"
+    },
+    {
+      "id": "64993972-c732-40ce-80ca-71fdd364546a__L0",
+      "name": "Local 0",
+      "symbol": "var_local_5"
+    },
+    {
+      "id": "17c51118-ca4e-4373-af00-24a4ddfffc1f__L0",
+      "name": "Local 0",
+      "symbol": "var_local_6"
+    },
+    {
+      "id": "31ec9ad7-8a0c-4c71-8841-8ef48426aa20__L0",
+      "name": "Local 0",
+      "symbol": "var_local_7"
     }
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "ee4f5da4-9553-4f27-bcd8-75ba777fbe78",
+  "name": "pixil-frame-0_10",
+  "symbol": "bg_pixil_frame_0_10",
+  "width": 32,
+  "height": 32,
+  "imageWidth": 256,
+  "imageHeight": 256,
+  "filename": "pixil-frame-0_10.png",
+  "tileColors": "",
+  "autoColor": false
+}
