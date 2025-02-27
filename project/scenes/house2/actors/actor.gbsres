@@ -54,12 +54,12 @@
     {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "L0",
+        "variable": "24",
         "value": {
           "type": "number",
           "value": 1
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "d28a00f4-ca9f-4d58-984b-64d958ee0961"
     },
@@ -170,7 +170,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "L0"
+            "value": "24"
           },
           "valueB": {
             "type": "number",

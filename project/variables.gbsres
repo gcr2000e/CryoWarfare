@@ -154,7 +154,62 @@
     {
       "id": "31ec9ad7-8a0c-4c71-8841-8ef48426aa20__L0",
       "name": "Local 0",
+      "symbol": "var_local_8"
+    },
+    {
+      "id": "6c261441-95cd-4ea2-b425-640d5d73eab3__L0",
+      "name": "Local 0",
       "symbol": "var_local_7"
+    },
+    {
+      "id": "17",
+      "name": "Taco1",
+      "symbol": "var_taco1"
+    },
+    {
+      "id": "18",
+      "name": "Shell1",
+      "symbol": "var_shell1"
+    },
+    {
+      "id": "19",
+      "name": "Pizza1",
+      "symbol": "var_pizza1"
+    },
+    {
+      "id": "031f8785-c4a6-4c4b-b7f0-e7b33502eca9__L0",
+      "name": "Local 0",
+      "symbol": "var_local_9"
+    },
+    {
+      "id": "20",
+      "name": "Shell2",
+      "symbol": "var_shell2"
+    },
+    {
+      "id": "21",
+      "name": "Shell3",
+      "symbol": "var_shell3"
+    },
+    {
+      "id": "22",
+      "name": "Taco2",
+      "symbol": "var_taco2"
+    },
+    {
+      "id": "23",
+      "name": "Pizza2",
+      "symbol": "var_pizza2"
+    },
+    {
+      "id": "24",
+      "name": "Pizza3",
+      "symbol": "var_pizza3"
+    },
+    {
+      "id": "25",
+      "name": "Taco3",
+      "symbol": "var_taco3"
     }
   ]
 }
